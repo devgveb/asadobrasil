@@ -44,7 +44,7 @@ const homePage = () =>{
               <div className="p-5 m-5 shadow rounded">
                 <Image src={limpeza} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
-                  <h5 className="pb-5">Faça você mesmo</h5>
+                  <h5 className="pb-5 text-2xl font-bold">Limpeza</h5>
                   <Link href="#" className="border-1 border-blue-700 text-blue-700 text-center p-3 rounded">Conheça a linha</Link>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const homePage = () =>{
               <div className="p-5 m-5 shadow rounded">
                 <Image src={todoit} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
-                  <h5 className="pb-5">Faça você mesmo</h5>
+                  <h5 className="pb-5 text-2xl font-bold">Faça você mesmo</h5>
                   <Link href="#" className="border-1 border-blue-700 text-blue-700 text-center p-3 rounded">Conheça a linha</Link>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const homePage = () =>{
               <div className="p-5 m-5 shadow rounded">
                 <Image src={utilidades} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
-                  <h5 className="pb-5">Faça você mesmo</h5>
+                  <h5 className="pb-5 text-2xl font-bold">Utensílios de Cozinha</h5>
                   <Link href="#" className="border-1 border-blue-700 text-blue-700 text-center p-3 rounded">Conheça a linha</Link>
                 </div>
               </div>
@@ -74,7 +74,7 @@ const homePage = () =>{
               <div className="p-5 m-5 shadow rounded">
                 <Image src={cuidados} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
-                  <h5 className="pb-5">Faça você mesmo</h5>
+                  <h5 className="pb-5 text-2xl font-bold">Cuidados Pessoais</h5>
                   <Link href="#" className="border-1 border-blue-700 text-blue-700 text-center p-3 rounded">Conheça a linha</Link>
                 </div>
               </div>
@@ -88,20 +88,23 @@ const homePage = () =>{
 
         <div className="containerScreen">
 
-          <section className="flex flex-row flex-wrap">
-          <div className="basis-1/2">
+          <section className="flex flex-row flex-wrap items-center">
+          <div className="basis-full lg:basis-1/2 pr-2">
           
-          <Image src={about} alt="Sobre Asa do Brasil" />
+          <Image src={about} alt="Sobre Asa do Brasil" className="rounded object-cover"/>
           
           </div>
-          <div className="basis-1/2">
+          <div className="basis-full lg:basis-1/2 pl-5">
           
-          <h2>Sobre a Asa do Brasil</h2>
+          <h2 className="text-4xl font-bold text-blue-700">Sobre a Asa do Brasil</h2>
 
-          <p>Desde 1997, a ASA DO BRASIL tem se consolidado como referência nacional no fornecimento de utilidades domésticas e bazar para o varejo alimentar.</p>
-          <p>Oferecemos soluções completas que impulsionam vendas e fortalecem a experiência de compra no ponto de venda.</p>
-          <p>Com presença em pequenos, médios e grandes clientes em todo o Brasil, nossa equipe atua de forma consultiva e personalizada, entendendo a realidade de cada parceiro para entregar o mix certo de produtos e resultados consistentes.</p>
-          <p>A ASA DO BRASIL é mais do que uma fornecedora: somos parceiros de crescimento para o seu negócio.</p>
+          <p className="pt-2 text-xl">Desde <strong>1997</strong>, a <strong>ASA DO BRASIL</strong> tem se consolidado como referência nacional no fornecimento de <strong>utilidades domésticas e bazar</strong> para o varejo alimentar.</p>
+          
+          <p className="pt-4 text-xl">Oferecemos <strong>soluções completas</strong> que impulsionam vendas e fortalecem a experiência de compra no ponto de venda.</p>
+
+          <p className="pt-4 text-xl">Com presença em <strong>pequenos, médios e grandes clientes em todo o Brasil</strong>, nossa equipe atua de forma <strong>consultiva e personalizada</strong>, entendendo a realidade de cada parceiro para entregar o mix certo de produtos e resultados consistentes.</p>
+
+          <p className="pt-2 text-xl">A <strong>ASA DO BRASIL</strong> é mais do que uma fornecedora: somos <strong>parceiros de crescimento</strong> para o seu negócio.</p>
           
           </div>
         </section>
