@@ -157,7 +157,7 @@ const homePage = () =>{
 
         <div className="containerScreen">
           <section className="flex flex-wrap flex-row">
-            <div className="basis-1/2">
+            <div className="basis-full md:basis-1/2">
             
               <div className="p-3">
                 <div className="flex flex-col">
@@ -165,22 +165,22 @@ const homePage = () =>{
                     <p className="text-xl font-bold">Encontre o mix ideal para o seu varejo.</p>
                 </div>
                 <form className="flex  flex-wrap flex-row">
-                    <div className="basis-1/2 pr-2">
+                    <div className="basis-full md:basis-1/2 pr-2">
                       <label>Nome</label>
                       <input type="text" className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
 
-                    <div className="basis-1/2 pl-2">
+                    <div className="basis-full md:basis-1/2 pl-2">
                       <label>Cidade</label>
                       <input type="text" className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
 
-                    <div className="basis-1/2 pr-2">
+                    <div className="basis-full md:basis-1/2 pr-2">
                       <label>E-mail</label>
                       <input type="text" className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
 
-                    <div className="basis-1/2 pl-2">
+                    <div className="basis-full md:basis-1/2 pl-2">
                       <label>Mensagem</label>
                       <textarea type="text" className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
