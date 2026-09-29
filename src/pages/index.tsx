@@ -46,10 +46,10 @@ const homePage = () =>{
             <p className="text-center text-xl font-bold text-blue-900">Soluções para cada rotina.</p>
           </section>
 
-          <div className="flex flex-wrap flex-row">
+          <div className="flex flex-wrap flex-row py-5">
 
             <section className="basis-full md:basis-1/2 lg:basis-1/4">
-              <div className="p-5 m-5 shadow rounded">
+              <div className="p-5 mr-5  my-5 shadow rounded">
                 <Image src={limpeza} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
                   <h5 className="pb-5 text-2xl font-bold">Limpeza</h5>
@@ -59,7 +59,7 @@ const homePage = () =>{
             </section>
 
             <section className="basis-full md:basis-1/2 lg:basis-1/4">
-              <div className="p-5 m-5 shadow rounded">
+              <div className="p-5 mr-5 my-5 shadow rounded">
                 <Image src={todoit} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
                   <h5 className="pb-5 text-2xl font-bold">Faça você mesmo</h5>
@@ -69,7 +69,7 @@ const homePage = () =>{
             </section>
 
             <section className="basis-full md:basis-1/2 lg:basis-1/4">
-              <div className="p-5 m-5 shadow rounded">
+              <div className="p-5 mr-5  my-5 shadow rounded">
                 <Image src={utilidades} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
                   <h5 className="pb-5 text-2xl font-bold">Utensílios de Cozinha</h5>
@@ -79,7 +79,7 @@ const homePage = () =>{
             </section>
 
             <section className="basis-full md:basis-1/2 lg:basis-1/4">
-              <div className="p-5 m-5 shadow rounded">
+              <div className="p-5 mr-5  my-5 shadow rounded">
                 <Image src={cuidados} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
                   <h5 className="pb-5 text-2xl font-bold">Cuidados Pessoais</h5>
@@ -92,19 +92,20 @@ const homePage = () =>{
         </div>
       </div>
 
+
       <div className="w-full h-auto bg-blue-950">
         <div className="containerScreen pb-7">
           <section className="py-3">
             <h2 className="text-5xl text-center font-bold text-white">Presente nos melhores verejos do Brasil</h2>
           </section>
           <div className="flex flex-wrap flex-row">
-                <section className="basis-1/3">
-                  <div className="p-3">
+                <section className="basis-full md:basis-1/2 lg:basis-1/3">
+                  <div className="">
                     <Image src={bannerRede} alt="Banner em grandes redes"/>
                   </div>
                 </section>
           
-                <section className="basis-1/3">
+                <section className="basis-full md:basis-1/2 lg:basis-1/3">
                   <div className="p-3">
                     <Image src={bannerFeira} alt="Em feiras e eventos"/>
                   </div>
@@ -112,7 +113,7 @@ const homePage = () =>{
 
 
 
-                <section className="basis-1/3">
+                <section className="basis-full md:basis-1/2 lg:basis-1/3">
                   <div className="p-3">
                     <Image src={bannerVenda} alt="No ponto de venda"/>
                   </div>
@@ -165,22 +166,22 @@ const homePage = () =>{
                     <p className="text-xl font-bold">Encontre o mix ideal para o seu varejo.</p>
                 </div>
                 <form className="flex  flex-wrap flex-row">
-                    <div className="basis-full md:basis-1/2 pr-2">
+                    <div className="md:basis-full lg:basis-1/2 md:pr-2">
                       <label>Nome</label>
                       <input type="text" className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
 
-                    <div className="basis-full md:basis-1/2 pl-2">
+                    <div className="md:basis-full lg:basis-1/2 md:pl-2">
                       <label>Cidade</label>
                       <input type="text" className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
 
-                    <div className="basis-full md:basis-1/2 pr-2">
+                    <div className="md:basis-full lg:basis-1/2 md:pr-2">
                       <label>E-mail</label>
                       <input type="text" className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
 
-                    <div className="basis-full md:basis-1/2 pl-2">
+                    <div className="md:basis-full lg:basis-1/2 md:pl-2">
                       <label>Mensagem</label>
                       <textarea type="text" className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
@@ -188,7 +189,7 @@ const homePage = () =>{
               </div>
             
             </div>
-            <address className="basis-1/2">
+            <address className="basis-full md:basis-1/2">
               <div className="m-5 shadow">
                 <iframe className="rounded object-cover w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3824.792509316114!2d-49.41278532396417!3d-16.536569541669603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e63b5faef201f%3A0x42889d97f827746e!2sAsa%20do%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1790469647929!5m2!1spt-BR!2sbr" width="600" height="300" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 <div className="p-3">
