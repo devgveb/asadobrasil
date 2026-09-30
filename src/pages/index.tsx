@@ -19,6 +19,12 @@ import bannerVenda from "@/assets/banner_ponto.png"
 
 import about from "@/assets/asa_sobre.png"
 
+import acBannerOne from "@/assets/ac_banner_1.png"
+
+import acBannerTwo from "@/assets/ac_banner_2.png"
+
+import acBannerThree from "@/assets/ac_banner_3.png"
+
 const homePage = () =>{
   return(
     <main>
@@ -98,16 +104,30 @@ const homePage = () =>{
           <section className="py-3">
             <h2 className="text-5xl text-center font-bold text-white">Presente nos melhores verejos do Brasil</h2>
           </section>
+<<<<<<< HEAD
+          <div className="flex flex-wrap flex-row pt-2">
+=======
           <div className="flex flex-wrap flex-row">
+>>>>>>> 8251c354bbaba03e8178f60bf7ec4fcf18e1c16f
                 <section className="basis-full md:basis-1/2 lg:basis-1/3">
                   <div className="">
                     <Image src={bannerRede} alt="Banner em grandes redes"/>
+
+                    <div className="pt-2">
+                      <p className="text-center font-bold text-2xl text-white">Em Grandes redes</p>
+                    </div>
+
                   </div>
                 </section>
           
                 <section className="basis-full md:basis-1/2 lg:basis-1/3">
                   <div className="p-3">
                     <Image src={bannerFeira} alt="Em feiras e eventos"/>
+
+                    <div className="pt-2">
+                      <p className="text-center font-bold text-2xl text-white">Em feiras e eventos</p>
+                    </div>
+
                   </div>
                 </section>
 
@@ -116,6 +136,11 @@ const homePage = () =>{
                 <section className="basis-full md:basis-1/2 lg:basis-1/3">
                   <div className="p-3">
                     <Image src={bannerVenda} alt="No ponto de venda"/>
+
+                    <div className="pt-2">
+                      <p className="text-center font-bold text-2xl text-white">No ponto de venda</p>
+                    </div>
+
                   </div>
                 </section>
 
@@ -152,6 +177,36 @@ const homePage = () =>{
 
         
 
+      </div>
+
+      <div className="w-full h-auto py-3 my-3 bg-sky-100">
+        <section className="containerScreen">
+          <div className="flex flex-wrap flex-row">
+            <section className="basis-1/4">
+              <div className="p-2">
+
+              </div>
+            </section>
+
+            <section className="basis-1/4">
+              <div className="p-2">
+                <Image src={acBannerOne} alt="Banner Apresentação 1" className="object-cover rounded"/>
+              </div>
+            </section>
+
+            <section className="basis-1/4">
+              <div className="p-2">
+                <Image src={acBannerTwo} alt="Banner Apresentação 2" className="object-cover rounded"/>
+              </div>
+            </section>
+
+            <section className="basis-1/4">
+              <div className="p-2">
+                <Image src={acBannerThree} alt="Banner Apresentação 3" className="object-cover rounded"/>
+              </div>
+            </section>
+          </div>
+        </section>
       </div>
 
       <div className="w-full h-auto">
