@@ -37,7 +37,7 @@ const homePage = () =>{
                         <p className="text-2xl text-white">Um mix de produtos pensado para o seu varejo.</p>
 
                         <div className="flex flex-row flex-wrap gap-5 pt-5">
-                          <Link href="#" className="bg-green-500 text-white text-center p-3 rounded">Conheça nossos produtos</Link>
+                          <Link href="#prod_asa" className="bg-green-500 text-white text-center p-3 rounded">Conheça nossas linhas</Link>
                           <Link href="#" className="border-1 border-white text-white text-center p-3 rounded">Fale com a ASA</Link>
                         </div>
                     </div>
@@ -45,11 +45,11 @@ const homePage = () =>{
           </div>
       </div>
 
-      <div className="w-full h-auto">
+      <div className="w-full h-auto" id="prod_asa">
         <div className="containerScreen">
           <section className="flex flex-col pt-5">
             <h3 className="text-center text-4xl font-bold text-blue-900">Nossas Linhas</h3>
-            <p className="text-center text-xl font-bold text-blue-900">Soluções para cada rotina.</p>
+            <p className="text-center text-xl font-bold text-blue-900">Produtos que facilitam a rotina e valorizam o seu negócio.</p>
           </section>
 
           <div className="flex flex-wrap flex-row py-5">
@@ -59,7 +59,7 @@ const homePage = () =>{
                 <Image src={limpeza} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
                   <h5 className="pb-5 text-2xl font-bold">Limpeza</h5>
-                  <Link href="#" className="border-1 border-blue-700 text-blue-700 text-center p-3 rounded">Conheça a linha</Link>
+                  <p className="text-md">Mais brilho, menos esforço! Descubra aliados para facilitar a limpeza e deixar sua casa bem cuidada todos os dias.</p>
                 </div>
               </div>
             </section>
@@ -69,7 +69,7 @@ const homePage = () =>{
                 <Image src={todoit} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
                   <h5 className="pb-5 text-2xl font-bold">Faça você mesmo</h5>
-                  <Link href="#" className="border-1 border-blue-700 text-blue-700 text-center p-3 rounded">Conheça a linha</Link>
+                  <p className="text-md">Encontre ferramentas e acessórios para pequenos reparos e grandes doses de criatividade.</p>
                 </div>
               </div>
             </section>
@@ -79,7 +79,7 @@ const homePage = () =>{
                 <Image src={utilidades} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
                   <h5 className="pb-5 text-2xl font-bold">Utensílios de Cozinha</h5>
-                  <Link href="#" className="border-1 border-blue-700 text-blue-700 text-center p-3 rounded">Conheça a linha</Link>
+                  <p className="text-md">Equipe sua cozinha com utensílios que facilitam o preparo e tornam cada receita ainda mais especial.</p>
                 </div>
               </div>
             </section>
@@ -89,7 +89,7 @@ const homePage = () =>{
                 <Image src={cuidados} alt="Banner Cuidados pessoais" className="object-cover"/>
                 <div className="p-5">
                   <h5 className="pb-5 text-2xl font-bold">Cuidados Pessoais</h5>
-                  <Link href="#" className="border-1 border-blue-700 text-blue-700 text-center p-3 rounded">Conheça a linha</Link>
+                  <p className="text-md">Descubra acessórios de beleza e higiene para se sentir bem da cabeça aos pés.</p>
                 </div>
               </div>
             </section>
@@ -111,10 +111,11 @@ const homePage = () =>{
 
                 <section className="basis-full md:basis-1/2 lg:basis-1/3">
                   <div className="">
-                    <Image src={bannerRede} alt="Banner em grandes redes"/>
+                    <Image src={bannerRede} alt="Banner em grandes redes" className="rounded object-cover"/>
 
                     <div className="pt-2">
-                      <p className="text-center font-bold text-2xl text-white">Em Grandes redes</p>
+                      <h3 className="text-center font-bold text-xl text-white">Em Grandes redes</h3>
+                      <p className="text-lg text-center text-white">Nossos produtos nas principais redes do pais.</p>
                     </div>
 
                   </div>
@@ -122,10 +123,11 @@ const homePage = () =>{
           
                 <section className="basis-full md:basis-1/2 lg:basis-1/3">
                   <div className="p-3">
-                    <Image src={bannerFeira} alt="Em feiras e eventos"/>
+                    <Image src={bannerFeira} alt="Em feiras e eventos"  className="rounded object-cover"/>
 
                     <div className="pt-2">
-                      <p className="text-center font-bold text-2xl text-white">Em feiras e eventos</p>
+                      <h3 className="text-center font-bold text-xl text-white">Em feiras e eventos</h3>
+                      <p className="text-lg text-center text-white">Sempre presentes nos maiores eventos do setor.</p>
                     </div>
 
                   </div>
@@ -135,10 +137,11 @@ const homePage = () =>{
 
                 <section className="basis-full md:basis-1/2 lg:basis-1/3">
                   <div className="p-3">
-                    <Image src={bannerVenda} alt="No ponto de venda"/>
+                    <Image src={bannerVenda} alt="No ponto de venda"  className="rounded object-cover"/>
 
                     <div className="pt-2">
-                      <p className="text-center font-bold text-2xl text-white">No ponto de venda</p>
+                      <h3 className="text-center font-bold text-xl text-white">No ponto de venda</h3>
+                      <p className="text-lg text-center text-white">Em milhares de lojas em todo Brasil.</p>
                     </div>
 
                   </div>
@@ -161,7 +164,7 @@ const homePage = () =>{
           </div>
           <div className="basis-full lg:basis-1/2 pl-5">
           
-          <h2 className="text-4xl font-bold text-blue-700">Sobre a Asa do Brasil</h2>
+          <h2 className="text-4xl font-bold text-blue-700">Há mais de 25 anos fazendo parte do seu dia a dia</h2>
 
           <p className="pt-2 text-xl">Desde <strong>1997</strong>, a <strong>ASA DO BRASIL</strong> tem se consolidado como referência nacional no fornecimento de <strong>utilidades domésticas e bazar</strong> para o varejo alimentar.</p>
           
