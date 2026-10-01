@@ -104,11 +104,11 @@ const homePage = () =>{
           <section className="py-3">
             <h2 className="text-5xl text-center font-bold text-white">Presente nos melhores verejos do Brasil</h2>
           </section>
-<<<<<<< HEAD
+
           <div className="flex flex-wrap flex-row pt-2">
-=======
+
           <div className="flex flex-wrap flex-row">
->>>>>>> 8251c354bbaba03e8178f60bf7ec4fcf18e1c16f
+
                 <section className="basis-full md:basis-1/2 lg:basis-1/3">
                   <div className="">
                     <Image src={bannerRede} alt="Banner em grandes redes"/>
@@ -146,6 +146,7 @@ const homePage = () =>{
 
           </div>
         </div>
+      </div>
       </div>
 
       <div className="w-full h-auto pt-5">
