@@ -25,9 +25,39 @@ import acBannerTwo from "@/assets/ac_banner_2.png"
 
 import acBannerThree from "@/assets/ac_banner_3.png"
 
+import logo from "@/assets/asaLogo.png"
+
+
 const homePage = () =>{
   return(
     <main>
+      <header className="w-full h-auto ">
+        <div className="containerScreen">
+
+          <nav className="flex justify-between items-center">
+
+            <Image src={logo} alt="logo" className="my-[10px] object-contain h-[70px] w-auto"/>
+
+            <div className="flex items-center  h-auto">
+
+                <button className="md:hidden relative">Menu</button>
+
+                <ul className="w-full bg-blue-900 md:bg-transparent right-0 h-full absolute top-[90px] block  z-50 md:flex md:static">
+                  <li className="p-5"><a>Pagina Inicial</a></li>
+                  <li className="p-5"><a>Nossa Linha</a></li>
+                  <li className="p-5"><a>Sobre Nós</a></li>
+                  <li className="p-5"><a>Contato</a></li>
+                </ul>
+
+            </div>
+            
+
+          </nav>
+
+        </div>
+      </header>
+
+
       <div className="w-full h-auto">
           <div className="relative">
                   <Image src={banner0} alt="Banner apresentação" className="h-[500px] object-cover lg:h-auto"/>
