@@ -42,7 +42,7 @@ const homePage = () =>{
 
                 <button className="md:hidden relative">Menu</button>
 
-                <ul className="w-full bg-blue-900 md:bg-transparent right-0 h-full absolute top-[90px] block  z-50 md:flex md:static">
+                <ul className="w-full bg-blue-900 md:bg-transparent right-0 h-full absolute top-[90px] hidden  z-50 md:flex md:static">
                   <li className="p-5"><a>Pagina Inicial</a></li>
                   <li className="p-5"><a>Nossa Linha</a></li>
                   <li className="p-5"><a>Sobre Nós</a></li>
