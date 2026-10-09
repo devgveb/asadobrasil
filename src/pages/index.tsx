@@ -28,6 +28,7 @@ import acBannerThree from "@/assets/ac_banner_3.png"
 import logo from "@/assets/asaLogo.png"
 
 
+
 const homePage = () =>{
   return(
     <main>
@@ -40,13 +41,15 @@ const homePage = () =>{
 
             <div className="flex items-center  h-auto">
 
-                <button className="md:hidden relative">Menu</button>
+                <button className="md:hidden relative" onClick={()=>{
+                  document.getElementById("menu")?.classList.toggle("hidden")
+                }}>Menu</button>
 
-                <ul className="w-full bg-blue-900 md:bg-transparent right-0 h-full absolute top-[90px] hidden  z-50 md:flex md:static">
-                  <li className="p-5"><a>Pagina Inicial</a></li>
-                  <li className="p-5"><a>Nossa Linha</a></li>
-                  <li className="p-5"><a>Sobre Nós</a></li>
-                  <li className="p-5"><a>Contato</a></li>
+                <ul id="menu" className="w-full bg-blue-900 md:bg-transparent right-0 h-full absolute top-[90px] hidden  z-50 md:flex md:static">
+                  <li className=" text-center p-5 text-white font-bold lg:text-blue-900"><a>Pagina Inicial</a></li>
+                  <li className=" text-center p-5 text-white font-bold lg:text-blue-900"><a>Nossa Linha</a></li>
+                  <li className=" text-center p-5 text-white font-bold lg:text-blue-900"><a>Sobre Nós</a></li>
+                  <li className=" text-center p-5 text-white font-bold lg:text-blue-900"><a>Contato</a></li>
                 </ul>
 
             </div>
