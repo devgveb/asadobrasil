@@ -277,6 +277,8 @@ const homePage = () =>{
                       <label>Mensagem</label>
                       <textarea  className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
+
+                    <button className="bg-green-500 text-white rounded py-3 px-10 font-bold cursor-pointer">Enviar Mensagem</button>
                 </form>
               </div>
             
