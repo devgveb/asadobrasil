@@ -225,19 +225,19 @@ const homePage = () =>{
               </div>
             </section>
 
-            <section className="basis-1/4">
+            <section className="basis-full md:basis-1/2 lg:basis-1/4">
               <div className="p-2">
                 <Image src={acBannerOne} alt="Banner Apresentação 1" className="object-cover rounded"/>
               </div>
             </section>
 
-            <section className="basis-1/4">
+            <section className="basis-full md:basis-1/2 lg:basis-1/4">
               <div className="p-2">
                 <Image src={acBannerTwo} alt="Banner Apresentação 2" className="object-cover rounded"/>
               </div>
             </section>
 
-            <section className="basis-1/4">
+            <section className="basis-full md:basis-1/2 lg:basis-1/4">
               <div className="p-2">
                 <Image src={acBannerThree} alt="Banner Apresentação 3" className="object-cover rounded"/>
               </div>
@@ -258,22 +258,22 @@ const homePage = () =>{
                     <p className="text-xl font-bold">Encontre o mix ideal para o seu varejo.</p>
                 </div>
                 <form className="flex  flex-wrap flex-row">
-                    <div className="md:basis-full lg:basis-1/2 md:pr-2">
+                    <div className="basis-full lg:basis-1/2 md:pr-2">
                       <label>Nome</label>
                       <input type="text" className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
 
-                    <div className="md:basis-full lg:basis-1/2 md:pl-2">
+                    <div className="basis-full lg:basis-1/2 md:pl-2">
                       <label>Cidade</label>
                       <input type="text" className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
 
-                    <div className="md:basis-full lg:basis-1/2 md:pr-2">
+                    <div className="basis-full lg:basis-1/2 md:pr-2">
                       <label>E-mail</label>
                       <input type="text" className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
 
-                    <div className="md:basis-full lg:basis-1/2 md:pl-2">
+                    <div className="basis-full lg:basis-1/2 md:pl-2">
                       <label>Mensagem</label>
                       <textarea  className="w-full h-auto p-3 rounded text-md border-1 border-gray-200" placeholder="Digite seu nome"/>
                     </div>
