@@ -297,6 +297,12 @@ const homePage = () =>{
         </div>
 
       </div>
+
+      <footer className="w-full h-auto bg-blue-950">
+        <div className="containerScreen">
+          <p className="text-center text-white p-5">© {new Date().getFullYear()} Desenvolvido por Gabriel Belo. Todos os direitos reservados.</p>
+        </div>
+      </footer>
     </main>
   )
 }
